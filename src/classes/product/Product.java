@@ -1,3 +1,5 @@
+package classes.product;
+
 import java.util.ArrayList;
 
 public class Product {

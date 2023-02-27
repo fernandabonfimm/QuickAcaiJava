@@ -1,3 +1,5 @@
+package classes.administrator;
+
 public class Administrator {
     private String name;
     private String email;

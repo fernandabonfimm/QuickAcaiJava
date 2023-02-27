@@ -1,3 +1,5 @@
+package classes.order;
+
 public class Order {
     private String idOrder;
     private String idClient;
@@ -8,7 +10,8 @@ public class Order {
     private String paymentMethod;
     private String paymentStatus;
 
-    public Order(String idOrder, String idClient, String idProduct, String idSeller, String date, String status, String paymentMethod, String paymentStatus) {
+    public Order(String idOrder, String idClient, String idProduct, String idSeller, String date, String status,
+            String paymentMethod, String paymentStatus) {
         this.idOrder = idOrder;
         this.idClient = idClient;
         this.idProduct = idProduct;

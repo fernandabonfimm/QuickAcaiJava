@@ -1,3 +1,5 @@
+package classes.client;
+
 public class Client {
     private String name;
     private String address;
@@ -14,8 +16,8 @@ public class Client {
         this.clientID = clientID;
         this.password = password;
     }
-    
-     // getters e setters para acessar os atributos
+
+    // getters e setters para acessar os atributos
 
     public String getName() {
         return name;
@@ -64,7 +66,5 @@ public class Client {
     public void setPassword(String password) {
         this.password = password;
     }
-
-
 
 }

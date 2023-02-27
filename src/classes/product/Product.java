@@ -1,5 +1,6 @@
 package classes.product;
 
+import java.sql.Array;
 import java.util.ArrayList;
 
 public class Product {
@@ -11,7 +12,7 @@ public class Product {
     private ArrayList<String> ingredients;
 
     public Product(String idProduct, String name, String description, String price, Number ml,
-            ArrayList<String> ingredients) {
+            String string) {
         this.idProduct = idProduct;
         this.name = name;
         this.description = description;
